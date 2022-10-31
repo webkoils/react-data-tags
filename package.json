@@ -1,0 +1,34 @@
+{
+  "version": "0.0.1",
+  "name": "react-data-tags",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": {
+    "name": "John Anderson",
+    "email": "webkoils@gmail.com",
+    "url": "https://github.com/webkoils"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "param-case": "^3.0.4"
+  },
+  "devDependencies": {
+    "react": ">=16.8",
+    "react-dom": ">=16.8"
+  },
+  "peerDependencies": {
+    "react": ">=16.8",
+    "react-dom": ">=16.8",
+    "typescript": ">=4",
+    "@types/react": ">=16.8",
+    "@types/react-dom": ">=16.8"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublish": "npm run build && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:webkoils/react-data-tags.git"
+  }
+}
